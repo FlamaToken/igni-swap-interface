@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://pancakeswap.finance/',
+    href: 'https://igniswap.github.io/',
   },
   {
     label: 'Trade',
@@ -22,15 +22,10 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Farms',
-    icon: 'FarmIcon',
-    href: 'https://pancakeswap.finance/farms',
-  },
-  {
-    label: 'Pools',
+    label: 'Staking',
     icon: 'PoolIcon',
-    href: 'https://pancakeswap.finance/syrup',
-  },
+    href: 'https://flama.app',
+  },/*
   {
     label: 'Lottery',
     icon: 'TicketIcon',
@@ -86,26 +81,22 @@ const config: MenuEntry[] = [
     label: 'IFO',
     icon: 'IfoIcon',
     href: 'https://pancakeswap.finance/ifo',
-  },
+  },*/
   {
     label: 'More',
     icon: 'MoreIcon',
     items: [
       {
-        label: 'Voting',
-        href: 'https://voting.pancakeswap.finance',
-      },
-      {
         label: 'Github',
-        href: 'https://github.com/pancakeswap',
+        href: 'https://github.com/flamatoken/',
       },
       {
         label: 'Docs',
-        href: 'https://docs.pancakeswap.finance',
+        href: 'https://github.com/flamatoken/docs',
       },
       {
         label: 'Blog',
-        href: 'https://pancakeswap.medium.com',
+        href: 'https://flamateam.medium.com',
       },
     ],
   },
