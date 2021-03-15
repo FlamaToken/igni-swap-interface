@@ -121,7 +121,7 @@ export default function RemoveLiquidity({
       { name: 'verifyingContract', type: 'address' },
     ]
     const domain = {
-      name: 'IgniLiquidity',
+      name: 'IgniSwap LP',
       version: '1',
       chainId,
       verifyingContract: pair.liquidityToken.address,
