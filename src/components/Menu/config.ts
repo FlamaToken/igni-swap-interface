@@ -25,7 +25,8 @@ const config: MenuEntry[] = [
     label: 'Staking',
     icon: 'PoolIcon',
     href: 'https://flama.app',
-  },/*
+  },
+  /*
   {
     label: 'Lottery',
     icon: 'TicketIcon',
@@ -81,7 +82,52 @@ const config: MenuEntry[] = [
     label: 'IFO',
     icon: 'IfoIcon',
     href: 'https://pancakeswap.finance/ifo',
-  },*/
+  },
+  */
+  {
+    label: 'FLAMA',
+    icon: 'InfoIcon',
+    items: [
+      {
+        label: 'Buy FMA',
+        href: 'https://uniswap.exchange/swap?outputCurrency=0x0f8794f66c7170c4f9163a8498371a747114f6c4',
+      },
+      {
+        label: 'Etherscan - FLAMA',
+        href: 'https://etherscan.io/token/0x0f8794f66c7170c4f9163a8498371a747114f6c4',
+      },
+      {
+        label: 'CoinMarketCap - FLAMA',
+        href: 'https://coinmarketcap.com/currencies/flama/',
+      },
+      {
+        label: 'CoinGecko - FLAMA',
+        href: 'https://www.coingecko.com/en/coins/flama/',
+      },
+    ],
+  },
+  {
+    label: 'FLAPP',
+    icon: 'InfoIcon',
+    items: [
+      {
+        label: 'Buy FLAP',
+        href: 'https://julswap.com/#/swap?outputCurrency=0x5c6a58d670483e1211b131f0a6501849c77a77d5',
+      },
+      {
+        label: 'Etherscan - FLAPP',
+        href: 'https://etherscan.io/token/0xCfb72ED3647cC8E7FA52E4F121eCdAbEfC305e7f',
+      },
+      {
+        label: 'BSCscan - FLAPP',
+        href: 'https://etherscan.io/token/0xCfb72ED3647cC8E7FA52E4F121eCdAbEfC305e7f',
+      },
+      {
+        label: 'CoinGecko - FLAPP',
+        href: 'https://www.coingecko.com/en/coins/flapp/',
+      },
+    ],
+  },
   {
     label: 'More',
     icon: 'MoreIcon',
@@ -89,10 +135,6 @@ const config: MenuEntry[] = [
       {
         label: 'Github',
         href: 'https://github.com/flamatoken/',
-      },
-      {
-        label: 'Docs',
-        href: 'https://github.com/flamatoken/docs',
       },
       {
         label: 'Blog',
