@@ -3039,6 +3039,15 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
+"@igniswap/core@https://github.com/FlamaToken/igniswap-v2-core.git":
+  version "1.0.0"
+  uid "4c59cf2404fbc6e1e07d20fb07616f5be8f11e57"
+  resolved "https://github.com/FlamaToken/igniswap-v2-core.git#4c59cf2404fbc6e1e07d20fb07616f5be8f11e57"
+
+"@igniswap/core@https://github.com/flamatoken/igniswap-v2-core.git":
+  version "1.0.0"
+  resolved "https://github.com/flamatoken/igniswap-v2-core.git#4c59cf2404fbc6e1e07d20fb07616f5be8f11e57"
+
 "@igniswap/igni-swap-core@https://github.com/igniswap/igni-swap-core.git":
   version "1.0.0"
   resolved "https://github.com/igniswap/igni-swap-core.git#cb722f53c8792cec6f48e6bd68d6cdad154cf696"
@@ -3842,11 +3851,11 @@
     yauzl "^2.10.0"
     yn "^3.1.1"
 
-"@igniswap/sdk@https://github.com/igniswap/igniswap-sdk.git":
+"@igniswap/sdk@https://github.com/flamatoken/igniswap-sdk.git":
   version "1.0.0"
-  resolved "https://github.com/igniswap/igniswap-sdk.git#9f3d75e773b79dea5dd326dce973bf4f881d9a3c"
+  resolved "https://github.com/flamatoken/igniswap-sdk.git#8ee0028920086d468e6581f16f9d107d7d21943f"
   dependencies:
-    "@igniswap/igni-swap-core" "https://github.com/igniswap/igni-swap-core.git"
+    "@igniswap/core" "https://github.com/FlamaToken/igniswap-v2-core.git"
     big.js "^5.2.2"
     decimal.js-light "^2.5.0"
     jsbi "^3.1.1"
