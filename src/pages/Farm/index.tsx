@@ -79,9 +79,6 @@ export default function Farm() {
     fetchingV2PairBalances || v2Pairs?.length < liquidityTokensWithBalances.length || v2Pairs?.some((V2Pair) => !V2Pair)
 
   const allV2PairsWithLiquidity = v2Pairs.map(([, pair]) => pair).filter((v2Pair): v2Pair is Pair => Boolean(v2Pair))
-  
-  const currency0 = unwrappedToken(allV2PairsWithLiquidity[0].token0);
-  const currency1 = unwrappedToken(allV2PairsWithLiquidity[0].token1);
 
   return (
     <>
@@ -89,7 +86,11 @@ export default function Farm() {
       <AppBody>
         <PageHeader title="Farm" description="Farm FLAP/BNB IGNI-LP to receive FLAP rewards">
           <StatusDiv>
-            <DoubleCurrencyLogo currency0={currency0} currency1={currency1} size={50}/>
+            {
+              allV2PairsWithLiquidity.length > 0 ?
+                <DoubleCurrencyLogo currency0={unwrappedToken(allV2PairsWithLiquidity[0].token0)} currency1={unwrappedToken(allV2PairsWithLiquidity[0].token1)} size={50} /> :
+                null
+            }
             <StatusBold>APR: 200.00%</StatusBold>
             <StatusBold>Available: 0.0000</StatusBold>
             <StatusSubDiv>
