@@ -26,6 +26,11 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: 'https://flama.app',
   },
+  {
+    label: 'Farm',
+    icon: 'FarmIcon',
+    href: '/farm',
+  },
   /*
   {
     label: 'Lottery',

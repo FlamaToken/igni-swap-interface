@@ -17,6 +17,9 @@ const Nav = ({ activeIndex = 0 }: { activeIndex?: number }) => (
       <ButtonMenuItem id="pool-nav-link" to="/pool" as={Link}>
         <TranslatedText translationId={74}>Liquidity</TranslatedText>
       </ButtonMenuItem>
+      <ButtonMenuItem id="pool-nav-link" to="/farm" as={Link}>
+        <TranslatedText translationId={74}>Farming</TranslatedText>
+      </ButtonMenuItem>
       <ButtonMenuItem
         id="pool-nav-link"
         as="a"
